@@ -1,0 +1,13 @@
+public class BasicArray {
+    public static void main(String[] args) {
+        //  Declare and initialize in one line
+        int[] number = {1, 2, 3};
+
+        //  Access elements (index starts at 0!)
+        System.out.println("Element at index 0: " + number[0]);  // 1
+        System.out.println("Element at index 1: " + number[1]);  // 2
+        System.out.println("Element at index 2: " + number[2]);  // 3
+
+        System.out.println("Array length: " + number.length);   // 3
+    }
+}
