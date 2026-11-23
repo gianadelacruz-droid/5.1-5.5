@@ -1,0 +1,11 @@
+public class TwoArray {
+    public static void main(String[] args) {
+        // 512 rows × 128 columns
+        int[][] twoD = new int[512][128];
+
+        // Assign a value
+        twoD[0][0] = 100;
+
+        // Retrieve and print
+        System.out.println("Value at [0][0]: " + twoD[0][0]);
+    }
