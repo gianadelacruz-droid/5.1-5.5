@@ -1,0 +1,22 @@
+public class TwoDimensionalArray {
+    public static void main(String[] args) {
+        // 4 rows × 2 columns
+        String[][] dogs = {
+            {"terry", "brown"},
+            {"Kristin", "white"},
+            {"toby", "gray"},
+            {"fido", "black"}
+        };
+
+        // Access first element
+        System.out.println(dogs[0][0]);  // terry
+
+        // Loop through all elements
+        for (int row = 0; row < dogs.length; row++) {
+            for (int col = 0; col < dogs[row].length; col++) {
+                System.out.print(dogs[row][col] + "  ");
+            }
+            System.out.println();
+        }
+    }
+}
